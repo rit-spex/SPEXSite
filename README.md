@@ -1,4 +1,4 @@
-SPEX Website
+# SPEX Website
 So the intention of this project is to be the webserver/website for the RIT Space Exploration group. We will be using [Flask](http://flask.pocoo.org/) as the webframework and [Bootstrap](http://getbootstrap.com/) for the styling of the website.
 
 ### Technologies used:
