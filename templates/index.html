@@ -19,14 +19,13 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="index.html" class="logo">SPEX</a>
-					<nav id="nav">
-						<a href="index.html">Home</a>
+					<a href="/" class="logo">SPEX</a>
+					<nav id="nav" class="mainnav">
+						<a href="/">Home</a>
 						<a href="generic.html">CubeSat</a>
 						<a href="/hab/">HAB</a>
-						<a href="#">SpexCast</a>
+						<a href="#">SPEXCast</a>
 						<a href="#">Sponsors</a>
-						<a href="#">Store</a>
 					</nav>
 					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 				</div>
@@ -42,32 +41,26 @@
 			<section id="one" class="wrapper">
 				<div class="inner">
 					<div class="flex flex-3">
-						<article>
+						<article class="indexbox">
 							<header>
 								<h3>CubeSat</h3>
 							</header>
-							<p>We are working on a proposal for the NASA CubeSat Launch Initiative. It's all really cool and stuff. Image here.</p>
-							<footer>
-								<a href="#" class="button special">More</a>
-							</footer>
+							<p>NASA's CubeSat Launch Initiative grants undergrad groups like SPEX to be able to work on and develop picosatellites. SPEX is currently in the design and planning phase of our mission.</p>
+							<img src="{{ url_for('static', filename='images/designreview.jpg') }}" id="indexphoto">
 						</article>
-						<article>
+						<article class="indexbox">
 							<header>
 								<h3>High Altitude Balloon</h3>
 							</header>
-							<p>Acronyms are great, image here</p>
-							<footer>
-								<a href="#" class="button special">More</a>
-							</footer>
+							<p>HAB allows for the unique opportunity of testing CubeSat technologies in near space-like environments. With launches planned for every semester, HAB is a great way for students to get involved.</p>
+							<img src="{{ url_for('static', filename='images/habheight.jpg')}}" id="indexphoto">
 						</article>
-						<article>
+						<article class="indexbox">
 							<header>
-								<h3>SpexCast</h3>
+								<h3>SPEXCast</h3>
 							</header>
-							<p>These guys talk about cool stuff, another image maybe.</p>
-							<footer>
-								<a href="#" class="button special">More</a>
-							</footer>
+							<p>A discussion podcast on the science and technology of space exploration, featuring interviews with experts and industry professionals within the space community.</p>
+							<img src="{{ url_for('static', filename='images/spexcastlogo.png')}}" id="indexphoto">
 						</article>
 					</div>
 				</div>
@@ -75,18 +68,12 @@
 
 		<!-- Two -->
 			<section id="two" class="wrapper style1 special">
-				<div class="inner">
+				<div class="inner" id="pan">
 					<header>
 						<h2>The SPEX team</h2>
 						<p>The ones who make what we do possible</p>
 					</header>
-					<div class="flex>
-						<div class="box person">
-							<div class="image round">
-								<img src="" alt="Image of the SPEX team">
-							</div>
-						</div>
-					</div>
+					<img src="{{ url_for('static', filename='images/philphace.jpg')}}" alt="Image of the SPEX team" id='philphace'>
 				</div>
 			</section>
 
@@ -98,9 +85,9 @@
 							&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
 						</div>
 						<ul class="icons">
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li>
+							<li><a href="https://www.facebook.com/ritspex/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://twitter.com/ritspex" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://wiki.rit.edu/display/SPEX/SPEX+Wiki+Home" class="icon fa-wikipedia-w"><span class="label">Wiki</span></a></li>
 						</ul>
 					</div>
 				</div>

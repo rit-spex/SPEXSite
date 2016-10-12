@@ -10,6 +10,10 @@ section.wrapper.style1 header p {
     color: rgba(255, 255, 255, 0.55);
 }
 
+section.wrapper {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
 a.icon {
     color: #3a3749;
 }
@@ -45,4 +49,16 @@ h1, h2, h3, h4, h5, h6 {
 #header a {
     font-weight: 600;
     font-family: inherit;
+}
+
+#indexphoto {
+    width:100%;
+    height:auto;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+#philphace {
+    width: 100%;
+    height: auto;
 }
