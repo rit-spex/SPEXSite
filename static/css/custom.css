@@ -7,7 +7,7 @@ section.wrapper.style1 {
 }
 
 section.wrapper.style1 header p {
-    color: rgba(255, 255, 255, 0.55);
+    color: rgba(221, 221, 221, 0.92);
 }
 
 section.wrapper {
@@ -20,6 +20,10 @@ a.icon {
 
 #banner {
     border-top: 0em;
+}
+
+#banner p {
+    color: rgba(221, 221, 221, 0.92);
 }
 
 .subpage #header {
@@ -61,4 +65,13 @@ h1, h2, h3, h4, h5, h6 {
 #philphace {
     width: 100%;
     height: auto;
+}
+
+#two {
+    background-image: url(./images/banner.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
 }

@@ -8,5 +8,15 @@ def index():
 
 
 @app.route('/hab/')
-def second():
+def hab():
     return render_template('hab.html')
+
+
+@app.route('/cubesat/')
+def cubesat():
+    return render_template('cubesat.html')
+
+
+@app.route('/spexcast/')
+def spexcast():
+    return render_template('spexcast.html')
