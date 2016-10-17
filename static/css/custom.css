@@ -79,3 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 #midlink {
     text-decoration: none;
 }
+
+a {
+    color: #6b6b6b;
+}
