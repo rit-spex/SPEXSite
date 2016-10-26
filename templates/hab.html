@@ -1,4 +1,7 @@
 {% extends "baseinfo.html" %}
+{% block title %}
+SPEX HAB
+{% endblock %}
 {% block content %}
 
 
@@ -9,7 +12,7 @@
 						<h2>High Altitude Balloon</h2>
 						<p>Quick to develop testbed</p>
 					</header>
-          <p> The SPEX High Altitude Balloon project/group allows for a unique opportunity to test things~ for our Cubesat. </p>
+          <p> The SPEX High Altitude Balloon (HAB) project/group allows for a unique opportunity to conduct experiments for our Cubesat in a near space-like environment. HABs typically reach an attitude of aproximately 30,000 meters (about 100,000 feet). SPEX HAB has launched two previous balloons, designated as HAB I and HAB II.</p>
 				</div>
       </section>
 
@@ -18,9 +21,12 @@
               <header class="align-center" >
                   <h2>HAB II</h2>
               </header>
+                  <p>HAB II was launched on May 8th, 2016 from the North side of RIT's campus. The main payload of the HAB was testing a Senior Design Project for Anthony Hennig. The basis of the project was a deployment system of spring hinged solar panels on a CubeSat.</p>
               <div class="align-center" >
-                  <p> Mission description filler text for Hab 2 launch</p>
                   <iframe width="854" height="480" src="https://www.youtube.com/embed/U40UZp3Z3a4" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="align-center" >
+              <img src="{{ url_for('static', filename='images/habrochester.jpg') }}" />
               </div>
           </div>
       </section>
