@@ -8,4 +8,5 @@ else:
     ip = '0.0.0.0'                            #localhost
     port = 8051
 
-httpd = make_server(ip, port, application)
+
+from flaskapp import app as application
