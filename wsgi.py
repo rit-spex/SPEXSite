@@ -1,12 +1,17 @@
+
 #!/usr/bin/python
 import os
 
-if 'OPENSHIFT_APP_NAME' in os.environ:              #are we on OPENSHIFT?
-    ip = os.environ['OPENSHIFT_PYTHON_IP']
-    port = int(os.environ['OPENSHIFT_PYTHON_PORT'])
-else:
-    ip = '0.0.0.0'                            #localhost
-    port = 8051
+virtenv = os.environ['OPENSHIFT_PYTHON_DIR'] + '/virtenv/'
+os.environ['PYTHON_EGG_CACHE'] = os.path.join(virtenv, 'lib/python2.7/site-packages')
+virtualenv = os.path.join(virtenv, 'bin/activate_this.py')
+try:
+    execfile(virtualenv, dict(__file__=virtualenv))
+except IOError:
+    pass
+#
+# IMPORTANT: Put any additional includes below this line.  If placed above this
+# line, it's possible required libraries won't be in your searchable path
+#
 
-
-from flaskapp import app as application
+from spex import app as application
