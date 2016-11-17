@@ -91,3 +91,14 @@ a {
 #habroch {
     max-width: 50em;
 }
+
+#buttonbanner {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #11557c;
+}
+
+#linktext {
+    color: #fff;
+    font-family: 'Roboto'
+}
