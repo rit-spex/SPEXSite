@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect
 app = Flask(__name__)
 
 
@@ -25,6 +25,14 @@ def spexcast():
 @app.route('/sponsors/')
 def sponsors():
     return render_template('sponsors.html')
+
+@app.route('/statistics/')
+def stats():
+    return redirect('http://hab-web-client-hab-telemetry-server.app.csh.rit.edu/statistics')
+
+@app.route('/orientation/')
+def orientation():
+    return redirect('http://hab-web-client-hab-telemetry-server.app.csh.rit.edu/orientation')
 
 @app.route('/astrodynamics/')
 def astro():

@@ -9,9 +9,9 @@
 		<title>SPEX</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.2.0/milligram.min.css" />
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}" />
-		<link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
     <link rel="shortcut icon"  href="{{ url_for('static', filename='images/icon.ico') }}" />
 
 	</head>
@@ -25,7 +25,7 @@
 						<a href="/">Home</a>
 						<a href="/cubesat/">CubeSat</a>
 						<a href="/hab/">HAB</a>
-						<a href="/spexcast/">SPEXCast</a>
+						<a href="/spexcast/">SPEXcast</a>
 						<a href="/sponsors/">Sponsors</a>
 					</nav>
 					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
@@ -58,7 +58,7 @@
 						</article>
 						<article class="indexbox">
 							<header>
-								  <a href="/spexcast/" id="midlink"><h3>SPEXCast</h3></a>
+								  <a href="/spexcast/" id="midlink"><h3>SPEXcast</h3></a>
 							</header>
 							<p>A discussion podcast on the science and technology of space exploration, featuring interviews with experts and industry professionals within the space community.</p>
 							<img src="{{ url_for('static', filename='images/spexcastlogo.jpg')}}" id="indexphoto">
