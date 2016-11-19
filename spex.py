@@ -25,3 +25,7 @@ def spexcast():
 @app.route('/sponsors/')
 def sponsors():
     return render_template('sponsors.html')
+
+@app.route('/astrodynamics/')
+def astro():
+    return render_template('astro.html')
