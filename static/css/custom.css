@@ -28,6 +28,7 @@ a.icon {
 
 .subpage #header {
     background: #3a3749;
+    min-height: 50px;
 }
 .bannertitle {
     font-family: 'Roboto', sans-serif;
@@ -53,6 +54,12 @@ h1, h2, h3, h4, h5, h6 {
 #header a {
     font-weight: 600;
     font-family: inherit;
+}
+
+#header p {
+    float: left;
+    position: relative;
+    left: 100px;
 }
 
 #indexphoto {
