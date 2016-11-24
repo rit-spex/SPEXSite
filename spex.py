@@ -33,3 +33,7 @@ def stats():
 @app.route('/orientation/')
 def orientation():
     return redirect('http://hab-web-client-hab-telemetry-server.app.csh.rit.edu/orientation')
+
+@app.route('/astrodynamics/')
+def astro():
+    return render_template('astro.html')
