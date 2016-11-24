@@ -109,3 +109,16 @@ a {
     color: #fff;
     font-family: 'Roboto'
 }
+#sponsorList {
+  list-style-type: none;
+  margin: auto;
+  max-width: 350px;
+}
+
+#sponsorList li {
+  margin: auto;
+}
+#sponsorList p {
+  margin: auto;
+  text-align: center;
+}
