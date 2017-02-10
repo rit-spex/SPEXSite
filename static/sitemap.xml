@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://spex.rit.edu/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://spex.rit.edu/sponsors/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://spex.rit.edu/hab/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://spex.rit.edu/spexcast/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://spex.rit.edu/cubesat/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>
+<!--<guid value="2ca4eb53-7ff4-4a5b-a5be-4871168da761" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
