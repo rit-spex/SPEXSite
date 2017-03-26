@@ -21,6 +21,9 @@ def cubesat():
 def spexcast():
     return render_template('spexcast.html')
 
+#@app.route('/astro/')
+#def astro():
+#    return render_template('astro.html')
 
 @app.route('/sponsors/')
 def sponsors():
