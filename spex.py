@@ -21,10 +21,6 @@ def cubesat():
 def spexcast():
     return render_template('spexcast.html')
 
-#@app.route('/astro/')
-#def astro():
-#    return render_template('astro.html')
-
 @app.route('/sponsors/')
 def sponsors():
     return render_template('sponsors.html')
@@ -35,11 +31,11 @@ def donate():
 
 @app.route('/statistics/')
 def stats():
-    return redirect('http://hab-web-client-hab-telemetry-server.app.csh.rit.edu/statistics')
+    return redirect('http://habtelemetry.app.csh.rit.edu/#/statistics')
 
 @app.route('/orientation/')
 def orientation():
-    return redirect('http://hab-web-client-hab-telemetry-server.app.csh.rit.edu/orientation')
+    return redirect('http://habtelemetry.app.csh.rit.edu/#/orientation')
 
 @app.route('/astrodynamics/')
 def astro():
