@@ -1,0 +1,37 @@
+{% extends "baseinfo.html" %}
+{% block description %}SPEX's projects and accomplishments wouldn't be possible without its supporters and sponsors.{% endblock %}
+{% block title %}
+SPEX Sponsors
+{% endblock %}
+{% block content %}
+<section id="three" class="wrapper">
+  <div class="inner wset">
+    <header class="align-center">
+        <h2>Help support SPEX's mission to educate the next generation of astronautical engineers</h2>
+    </header>
+    <div>
+      <div>
+        <a class="donateLink" href="https://securelb.imodules.com/s/1624/index-giving.aspx?sid=1624&amp;gid=1&amp;pgid=705&amp;cid=1466&amp;fid=1466&amp;gfid=800&amp;bledit=1&amp;dids=651" ><button class="button special" >Donate Now</button></a>
+      <div>
+      <h3>Individual Contributors</h3>
+      <p>
+        If you are an individual looking to make a donation, you can use our official RIT donation page, which will handle all payment processing. RIT University is a 501(c)(3) organization and all donations are tax deductible.
+      </p>
+    </div>
+    <div>
+      <h3>Corporate Donations</h3>
+      <p>
+        You can check out our sponsorship packet at the link below. We also accept in-kind donations.
+        <br />
+        <a href="{{ url_for('static', filename='files/SPEX_Sponsorship.pdf') }}">Sponsorship Packet</a>
+      </p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>
+        Please feel free to contact us at spex.rit@gmail.com if you have any questions or concerns!
+      </p>
+    </div>
+  </div>
+</section>
+{% endblock %}
