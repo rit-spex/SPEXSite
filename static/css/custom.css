@@ -122,3 +122,9 @@ a {
   margin: auto;
   text-align: center;
 }
+
+.donateLink {
+  margin:auto;
+  display:block;
+  text-align: center;
+}

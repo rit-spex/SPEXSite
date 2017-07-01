@@ -25,6 +25,10 @@ def spexcast():
 def sponsors():
     return render_template('sponsors.html')
 
+@app.route('/donate/')
+def donate():
+    return render_template('donate.html')
+
 @app.route('/statistics/')
 def stats():
     return redirect('http://habtelemetry.app.csh.rit.edu/#/statistics')
