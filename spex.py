@@ -1,10 +1,9 @@
 from flask import Flask, render_template, redirect
 app = Flask(__name__)
 
-
 @app.route('/')
 def index():
-    return render_template('/index.html')
+    return render_template('index.html')
 
 
 @app.route('/hab/')
@@ -20,6 +19,10 @@ def cubesat():
 @app.route('/spexcast/')
 def spexcast():
     return render_template('spexcast.html')
+
+@app.route('/getInvolved/')
+def getInvolved():
+    return render_template('getInvolved.html')
 
 @app.route('/sponsors/')
 def sponsors():

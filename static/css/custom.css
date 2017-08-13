@@ -1,3 +1,7 @@
+body {
+    color: #6E6E6E
+}
+
 section.wrapper.style1 {
     background-color: #3a3749;
 }
@@ -127,4 +131,9 @@ a {
   margin:auto;
   display:block;
   text-align: center;
+}
+
+.homepage-twitter {
+    overflow-x: scroll;
+    max-height: 500px;
 }

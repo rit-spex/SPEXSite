@@ -3065,3 +3065,7 @@
 		}
 
 	}
+.homepage-twitter {
+    overflow-x: scroll;
+    max-height: 500px;
+}

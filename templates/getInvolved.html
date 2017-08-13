@@ -1,0 +1,80 @@
+{% extends "baseinfo.html" %}
+{% block description %}Learn how to get involved with RIT Space Exploration{% endblock %}
+{% block title %}Get Involved{% endblock %}
+{% block content %}
+<section id="three" class="wrapper">
+		<div class="inner">
+				<header class="align-center">
+						<h2>Get Involved</h2>
+        </header>
+        <h3>Why should you join SPEX?</h3>
+        <ul>
+          <li>Project Experience</li>
+            <ul>
+              <li>Develop and apply new technical skills working on real hardware.</li>
+              <li>Build your resume with space-related projects that shows your passion for space.</li>
+              <li>Multidisciplinary experience working with team members from different schools and majors</li>
+            </ul>
+          <li>Events</li>
+            <ul>
+              <li>1 on 1 meet ups with space industry recruiters.</li>
+              <li>Astronomy observation nights.</li>
+              <li>Space-themed social events like movie and KSP nights.</li>
+            </ul>
+          <li>Who can join SPEX?</li>
+            <ul>
+              <li>SPEX is open to any undergraduate or graduate student at RIT.</li>
+              <li>We are open to all majors, year levels, and experience levels.</li>
+              <li>We are always looking for new majors to contribute to SPEX's multidisciplinary work.</li>
+            </ul>
+        </ul>
+        <h3>New Students</h3>
+        <p>
+          RIT Space Exploration is open to all undergraduate and graduate students at RIT.
+          Meetings during the semester are at <strong>11:00 AM in Hugh L. Carey Hall, room 14-2575-2585</strong> every Saturday.
+          If you are interested in joining SPEX, you can send an email using the form below to receive more information.
+        </p>
+        <h3>RIT Faculty</h3>
+        <p>
+          SPEX is interested in partnering with RIT faculty in a variety of roles.
+          We are looking for faculty interested in advising SPEX members and project teams in the following fields.
+        </p>
+        <ul>
+          <li>Propulsion</li>
+          <li>Radio and antenna design</li>
+          <li>PCB layout and design</li>
+          <li>3D printing and FEA</li>
+          <li>Real Time Operating Systems (RTOS) and avionics</li>
+        </ul>
+        <p>If you have expertise in other aerospace-related fields not listed, we would love to work with you on future projects.</p>
+        <p>
+          SPEX is also actively looking to partner with RIT faculty looking to fly their research on future high altitude balloon (HAB) launches and CubeSat missions.
+          We have a HAB platform that can fly up to 8u (20cm x 20cm x 20cm) payloads up to 100,000 ft.
+        </p>
+        <h3>Industry Professionals</h3>
+        <p>
+          SPEX is looking to partner with industry professionals to give our members insight into aerospace industry.
+          Prior outreach events have included presentations on technical work, resume reviews and company Q and A.
+          If you or your company would be interested in participating in a SPEX outreach event, please let us know via the form below.
+          SPEX is also looking for corporate sponsorship to support its projects.
+          You can learn more on our <a href="/donate">donation page</a>.
+        </p>
+		</div>
+</section>
+
+<section id="three" class="wrapper" >
+    <div class="inner wset" >
+        <div class="align-center" >
+          <h2>Contact SPEX!</h2>
+        </div>
+        <form action="https://formspree.io/spex.rit@gmail.com"
+              method="POST">
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="_replyto" placeholder="E-mail" >
+            <input type="text" name="_gotcha" style="display:none" />
+            <textarea name="message" placeholder="Your message" ></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</section>
+{% endblock %}
