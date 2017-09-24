@@ -1,0 +1,29 @@
+{% extends "baseinfo.html" %}
+{% block description %}Subgroup dedicated to design and fabrication of a cold gas thruster{% endblock %}
+{% block title %}CGPAD{% endblock %}
+{% block content %}
+<section id="three" class="wrapper">
+    <div class="inner">
+        <header class="align-center">
+            <h2>Cold Gad Propulsion Analysis and Design</h2>
+        </header>
+        <p>
+            The Cold Gas Propulsion Analysis and Design (CGPAD) team concerns the design, fabrication, and
+            experimentation of a cold gas thruster. The project’s main goal is to provide insight and
+            experience into the design of a supersonic nozzle for small propulsion systems. Secondary goals
+            will include the understanding in the design of high-pressure flow systems,
+            including the necessary precautions and procedures to ensure safe usage.
+        </p>
+        <img src="{{ url_for('static', filename='images/cgpad1.jpg') }}" id="cgpad" />
+        <br />
+        <h3>Our Propulsion System</h3>
+        <p>
+            Our propulsion system includes a regular, a solenoid, a tank, a nozzle, piping and interfaces
+            all connected in series. The test stand includes a t-slot frame made entirely of aluminum.
+            There is also an connected Arduino which will record the data from the load cell.
+        </p>
+        <img src="{{ url_for('static', filename='images/cold-gas-thruster.png') }}" id="thruster" />
+        <br />
+    </div>
+</section>
+{% endblock %}
