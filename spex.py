@@ -24,7 +24,7 @@ def spexcast():
 def getInvolved():
     return render_template('getInvolved.html')
 	
-@app.route('/coldGas/')
+@app.route('/CGPAD')
 def cgpad():
 	return render_template('cgpad.html')
 
