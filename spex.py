@@ -23,6 +23,10 @@ def spexcast():
 @app.route('/getInvolved/')
 def getInvolved():
     return render_template('getInvolved.html')
+	
+@app.route('/coldGas/')
+def cgpad():
+	return render_template('cgpad.html')
 
 @app.route('/sponsors/')
 def sponsors():

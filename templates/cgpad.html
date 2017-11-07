@@ -1,0 +1,46 @@
+{% extends "baseinfo.html" %}
+{% block description %}Subgroup dedicated to design and fabrication of a cold gas thruster{% endblock %}
+{% block title %}CGPAD{% endblock %}
+{% block content %}
+    <section id="three" class="wrapper">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Cold Gad Propulsion Analysis and Design</h2>
+            </header>
+            <p>
+                The mission of the Cold Gas Propulsion Analysis and Design (CGPAD) project is to learn how to design
+                and fabricate conical and parabolic nozzles for propulsion. The complexity lies in the design, as
+                the size of the nozzle causes the boundary layer effects to become a dominant factor. The team will
+                test a large number of nozzles. Each nozzle will have a certain pressure ratio and area ratio
+                which will be plotted together for later nozzle designs. A 8th order polynomial fit will be
+                assigned the plot; when other projects need a cold gas thruster nozzle, we can use this curve to
+                get a good initial geometric estimation.
+            </p>
+            <center>
+                <img src="{{ url_for('static', filename='images/resizedjames.jpg') }}" id="cgpad" />
+            </center>
+            <br />
+            <h3>Our Propulsion System</h3>
+            <p>
+                Our propulsion system includes a regular, a solenoid, a tank, a nozzle, piping and interfaces
+                all connected in series. The test stand includes a t-slot frame made entirely of aluminum.
+                There is also an connected Arduino which will record the data from the load cell.
+            </p>
+            <center>
+                <img src="{{ url_for('static', filename='images/resizedthruster.jpg') }}" id="thrusterflow" />
+            </center>
+            <br />
+            <h3>Our Team</h3>
+            <p>
+                Our team consists of RIT students from a multitude of majors and fields. Our multidisciplinary
+                team serves to further our commitment to our academic mission. As a team we have held workshops
+                for students on topics ranging from computer modeling with SOLIDWORKS to rocket theory and nozzle
+                design.
+            </p>
+            <center>
+                <img src="{{ url_for('static', filename='images/ourteam.jpg') }}" id="ourteam" />
+            </center>
+            <br />
+        </div>
+    </section>
+{% endblock %}
