@@ -12,6 +12,16 @@ SPEX HAB
     </div>
     </a>
 </section>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 		<!-- Three -->
 			<section id="three" class="wrapper">
 				<div class="inner wset">
@@ -45,11 +55,11 @@ SPEX HAB
           <p>GoPro/Camera: For next launches, we are looking into the concept of embedded the camera inside the payload box. The camera would peak through a port cut into the side of the box walls.  Also, cheaper alternatives will also be looked into for less risk factor to launches.</p>
 
         </div>
-
-          <div class="align-center">
-            <img class="img-responsive" src="{{ url_for('static', filename='images/hab3launch.jpg') }}" alt="Hab3">
-          </div>
       </section>
+
+    <div class="align-center">
+        <center><img class="img-responsive" src="{{ url_for('static', filename='images/hab3launch.jpg') }}" alt="Hab3"></center>
+    </div>
 
       <section id="three" class="wrapper" >
           <div class="inner wset" >
@@ -73,7 +83,7 @@ SPEX HAB
 
       <section id="three"  class="wrapper" >
         <div class="align-center" >
-            <img class="img-responsive" src="{{ url_for('static', filename='images/habrochester.jpg') }}" alt="Habroch">
+            <center><img class="img-responsive" src="{{ url_for('static', filename='images/habrochester.jpg') }}" alt="Habroch"></center>
           <figcaption>Still shot from HAB II looking over Rochester, NY and Lake Ontario</figcaption>
         </div>
       </section>
@@ -119,10 +129,8 @@ SPEX HAB
 
       <section id="three" class="wrapper" >
               <div class="align-center" >
-                  <img class="img-responsive" src="{{ url_for('static', filename='images/haboneteam.jpg') }}" alt="HabTeam">
+                  <center><img class="img-responsive" src="{{ url_for('static', filename='images/haboneteam.jpg') }}" alt="HabTeam"></center>
               </div>
       </section>
-
-
 
 {% endblock %}
