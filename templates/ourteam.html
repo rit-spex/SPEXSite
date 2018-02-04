@@ -3,20 +3,12 @@
 {% block title %}About Us{% endblock %}
 {% block content %}
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
     <section id="three" class="wrapper">
-        <div class="container" style="align-content: center">
+
+        <div class="container" style="align-content: ">
 
             <header class="align-center">
-                <h3>Our Student Leadership</h3>
+                <h3 style="font-weight: 600;">Our Student Leadership</h3>
             </header>
 
             <div class="row">
@@ -84,13 +76,17 @@
                         </a>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-md-12">
-                    <header class="align-center">
-                        <h3>Our Adviser Team</h3>
-                    </header>
-                </div>
+            <br>
 
+            <div class="col-md-12">
+                <header class="align-center">
+                    <h3 style="font-weight: 600;">Our Adviser Team</h3>
+                </header>
+            </div>
+
+            <div class="row">
                 <!-- Spacer-->
                 <div class="col-md-3">
                     <p></p>
@@ -131,8 +127,10 @@
             </div>
             <header class="align-center">
                 <br>
-                <h2>The SPEX team</h2>
-                <h6>The ones who make what we do possible</h6>
+                <h2 style="font-weight: 600;
+    font-family: inherit;">The SPEX team</h2>
+                <h6 style="font-weight: 600;
+    font-family: inherit;">The ones who make what we do possible</h6>
             </header>
             <img class="img-rounded" src="{{ url_for('static', filename='images/imagineRIT2017.jpg')}}" alt="Image of the SPEX team" id='philphace'>
         </div>
