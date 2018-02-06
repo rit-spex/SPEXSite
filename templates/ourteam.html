@@ -1,0 +1,143 @@
+{% extends "baseinfo.html" %}
+{% block description %}{% endblock %}
+{% block title %}About Us{% endblock %}
+{% block content %}
+
+    <section id="three" class="wrapper">
+
+        <div class="container" style="align-content: ">
+
+            <header class="align-center">
+                <h3 style="font-weight: 600;">Our Student Leadership</h3>
+            </header>
+
+            <div class="row">
+
+                <!-- Spacer -->
+                <div class="col-md-1">
+                    <p></p>
+                </div>
+                <!-- Student Leadership Row-->
+                <div class="col-md-2">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img class="img-circle" src="{{ url_for('static', filename='images/headshots/Parkus-James.png') }}" alt="Student Director" style="width:100%">
+                            <div class="caption" style="text-align: center">
+                                <h4>James Parkus</h4>
+                                <p>Student Director</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img class="img-circle" src="{{ url_for('static', filename='images/headshots/Dubill-Amber.png') }}" alt="Deputy Director" style="width:100%">
+                            <div class="caption" style="text-align: center">
+                                <h4>Amber Dubill</h4>
+                                <p>Deputy Director</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img class="img-circle" src="{{ url_for('static', filename='images/headshots/Pape-Chris.png') }}" alt="Technical Coordinator" style="width:100%">
+                            <div class="caption" style="text-align: center">
+                                <h4>Chris Pape</h4>
+                                <p>Technical Coordinator</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img class="img-circle" src="{{ url_for('static', filename='images/headshots/Putnam-Evan.png') }}" alt="Treasurer" style="width:100%">
+                            <div class="caption" style="text-align: center">
+                                <h4>Evan Putnam</h4>
+                                <p>Treasurer</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img class="img-circle" src="{{ url_for('static', filename='images/headshots/Hall-Thomas.png') }}" alt="Director of Marketing" style="width:100%">
+                            <div class="caption" style="text-align: center">
+                                <h4>Thomas Hall</h4>
+                                <p>Director of Marketing</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Title -->
+            <br>
+            <div class="col-md-12">
+                <header class="align-center">
+                    <h3 style="font-weight: 600;">Our Adviser Team</h3>
+                </header>
+            </div>
+
+            <div class="row">
+                <!-- Spacer-->
+                <div class="col-md-3">
+                    <p></p>
+                </div>
+
+                <!-- Adviser row-->
+                <div class="col-md-2">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img class="img-circle" src="{{ url_for('static', filename='images/headshots/Barbosu-Mihail.png') }}" alt="Adviser, College Of Science" style="width:100%">
+                            <div class="caption" style="text-align: center">
+                                <h4>Mihail Barbosu</h4>
+                                <p>College of Science Adviser</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img class="img-circle" src="{{ url_for('static', filename='images/headshots/Connelly-Jennifer.png') }}" alt="Adviser, Astrophysical Science and Technology" style="width:100%">
+                            <div class="caption" style="text-align: center">
+                                <h4>Jennifer Connelly</h4>
+                                <p>Astrophysical Science and Technology Adviser</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img class="img-circle" src="{{ url_for('static', filename='images/headshots/Patru-Dorin.png') }}" alt="Adviser, Kete Gleason College of Engineering" style="width:100%">
+                            <div class="caption" style="text-align: center">
+                                <h4>Dorian Patru</h4>
+                                <p>Kate Gleason College of Engineering Adviser</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team photo -->
+            <header class="align-center">
+                <br>
+                <h2 style="font-weight: 600;
+    font-family: inherit;">The SPEX team</h2>
+                <h6>The ones who make what we do possible</h6>
+            </header>
+            <img class="img-rounded" src="{{ url_for('static', filename='images/imagineRIT2017.jpg')}}" alt="Image of the SPEX team" id='philphace'>
+        </div>
+    </section>
+{% endblock %}
+

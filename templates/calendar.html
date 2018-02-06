@@ -1,0 +1,17 @@
+{% extends "baseinfo.html" %}
+{% block description %}Calendar{% endblock %}
+{% block title %}Calendar{% endblock %}
+{% block content %}
+
+    <section id="three" class="wrapper">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Calendar</h2>
+            </header>
+            <!-- embed using iframe -->
+            <div class="align-center">
+                <iframe src="https://calendar.google.com/calendar/embed?src=spex.rit%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </section>
+{% endblock %}

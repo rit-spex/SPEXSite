@@ -12,6 +12,7 @@ SPEX HAB
     </div>
     </a>
 </section>
+
 		<!-- Three -->
 			<section id="three" class="wrapper">
 				<div class="inner wset">
@@ -40,12 +41,16 @@ SPEX HAB
           <p>Launch conditions were mild winds, borderline freezing temperatures, and a mixture of snow and rain.  Like the previous two HAB launches, HAB3 was prepared and released in a parking lot in front of RIT’s campus.  After launching, using the onboard APRS transmitter, we tracked our balloon on aprs.fi. The balloon took off east, hitting approximately 155 mph for a maximum velocity.  At about 65,000ft of altitude, about 10 miles North of Ithaca over lake Cayuga, the last gps transmission was received. The location of the HAB was unknown after this.</p>
           <p>Using http://predict.habhub.org/, with data from our previous HAB II launch, the team expected the payload box to land in the general Cortland, NY area. Three days later a farmer in Marathon, NY called the number written on the side of the payload. The HAB had landed in a cow pasture fortunately  where it would be found and played with by a group of cows.</p>
           <p>A quick inspection of the HAB revealed that the cause for loss of communications was a lead connection the battery to the APRS transmitter had broken off, causing the board to lose power.  In addition to loss of radio comms, the GoPro on the boom secured with epoxy and anchored by fishing line, had fallen off.</p>
-          <h3>What we can learn from this</h3>
+          <h3>What we have learned from this</h3>
           <p>Radio/Battery: Two main things we can improve on. One is a redundant gps reporting radio system. Losing radio transmissions was incredibly mission threatening. We were lucky that it landed in a farm and it was relatively quickly reported too.  A redundant radio would allow for backup and much greater increased odds of total location loss.  As for the battery connections, we will seek much sturdier ways of securing the battery and forming the connection.</p>
           <p>GoPro/Camera: For next launches, we are looking into the concept of embedded the camera inside the payload box. The camera would peak through a port cut into the side of the box walls.  Also, cheaper alternatives will also be looked into for less risk factor to launches.</p>
-          <img src="{{ url_for('static', filename='images/hab3launch.jpg') }}" id="hab3launch" />
+
         </div>
       </section>
+
+    <div class="align-center">
+        <center><img class="img-rounded" src="{{ url_for('static', filename='images/hab3launch.jpg') }}" alt="Hab3"></center>
+    </div>
 
       <section id="three" class="wrapper" >
           <div class="inner wset" >
@@ -69,7 +74,7 @@ SPEX HAB
 
       <section id="three"  class="wrapper" >
         <div class="align-center" >
-          <img src="{{ url_for('static', filename='images/habrochester.jpg') }}" id="habroch"/>
+            <center><img class="img-rounded" src="{{ url_for('static', filename='images/habrochester.jpg') }}" alt="Habroch"></center>
           <figcaption>Still shot from HAB II looking over Rochester, NY and Lake Ontario</figcaption>
         </div>
       </section>
@@ -108,17 +113,15 @@ SPEX HAB
               </p>
               
               <div class="align-center" >
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/BZgZUZLJZE4" frameborder="0" id="habroch" allowfullscreen></iframe>
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/BZgZUZLJZE4" frameborder="0" id="habroch" allowfullscreen></iframe>
               </div>
           </div>
       </section>
 
       <section id="three" class="wrapper" >
               <div class="align-center" >
-                <img src="{{ url_for('static', filename='images/haboneteam.jpg') }}" id="habroch" />
+                  <center><img class="img-rounded" src="{{ url_for('static', filename='images/haboneteam.jpg') }}" alt="HabTeam"></center>
               </div>
       </section>
-
-
 
 {% endblock %}

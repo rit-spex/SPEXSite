@@ -44,6 +44,14 @@ def orientation():
 def astro():
     return render_template('astro.html')
 
+@app.route('/ourteam/')
+def ourteam():
+    return render_template('ourteam.html')
+
+@app.route('/calendar/')
+def calendar():
+    return render_template('calendar.html')
+
 @app.route('/sitemap.xml')
 def sitemap():
     return app.send_static_file('sitemap.xml')
