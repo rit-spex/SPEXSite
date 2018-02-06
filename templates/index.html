@@ -11,7 +11,17 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.2.0/milligram.min.css" />
-		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet" />		
     <link rel="shortcut icon"  href="{{ url_for('static', filename='images/icon.ico') }}" />
@@ -64,39 +74,39 @@
 								  <a href="/cubesat/" id="midlink"><h3>CubeSat</h3></a>
 							</header>
 							<p>NASA's CubeSat Launch Initiative grants undergrad groups like SPEX to be able to work on and develop picosatellites. SPEX is currently in the design and planning phase of our mission.</p>
-							<img src="{{ url_for('static', filename='images/designreview.jpg') }}" id="indexphoto">
+                            <div class="align-center"><img class="img-rounded" src="{{ url_for('static', filename='images/designreview.jpg') }}" id="indexphoto"></div>
 						</article>
 						<article class="indexbox">
 							<header>
 								  <a href="/hab/" id="midlink"><h3>High Altitude Balloon</h3></a>
 							</header>
 							<p>HAB allows for the unique opportunity of testing CubeSat technologies in near space-like environments. With launches planned for every semester, HAB is a great way for students to get involved.</p>
-							<img src="{{ url_for('static', filename='images/habheight.jpg')}}" id="indexphoto">
+							<div class="align-center"><img class="img-rounded" src="{{ url_for('static', filename='images/habheight.jpg')}}"></div>
 						</article>
 						<article class="indexbox">
 							<header>
 								  <a href="/spexcast/" id="midlink"><h3>SPEXcast</h3></a>
 							</header>
 							<p>A discussion podcast on the science and technology of space exploration, featuring interviews with experts and industry professionals within the space community.</p>
-							<img src="{{ url_for('static', filename='images/spexcastlogo.jpg')}}" id="indexphoto">
+                            <div class="align-center"><img src="{{ url_for('static', filename='images/spexcastlogo.jpg')}}" id="indexphoto"></div>
 						</article>
 						<article class="indexbox">
 								<header>
-										<a href="/astrodynamics/" id="midlink"><h3>Astrodynamics</h3></a>
+                                    <a href="/astrodynamics/" id="midlink"><h3>Astrodynamics</h3></a>
 								</header>
 								<p>SPEX Astrodynamics team uses professional equipment to observe and track artifical satellites right from campus.</p>
-								<img src="{{ url_for('static', filename='images/moonshot.jpg')}}" id="indexphoto">
+                                <div class="align-center"><img class="img-rounded" src="{{ url_for('static', filename='images/moonshot.jpg')}}" id="indexphoto"></div>
 							</article>
 							<article class="indexbox">
-									<header>
-											<a href="https://github.com/RIT-Space-Exploration" id="midlink"><h3>SPEX Github</h3></a>
-									</header>
-									<p>Check out SPEX's github organization. We keep the software and some hardware designs stored and available through public repositories.</p>
-									<img src="{{ url_for('static', filename='images/github_icon.png')}}" id="indexphoto">
+                                <header>
+									<a href="https://github.com/RIT-Space-Exploration" id="midlink"><h3>SPEX Github</h3></a>
+								</header>
+								<p>Check out SPEX's github organization. We keep the software and some hardware designs stored and available through public repositories.</p>
+                                <div class="align-center"><img src="{{ url_for('static', filename='images/github_icon.png')}}" id="indexphoto"></div>
 								</article>
 						<article class="indexbox">
 							<header>
-									<a href="https://twitter.com/ritspex" id="midlink"><h3>Follow us on Twitter</h3></a>
+                                <a href="https://twitter.com/ritspex" id="midlink"><h3>Follow us on Twitter</h3></a>
 							</header>
 							<div class="homepage-twitter">
 								<a class="twitter-timeline" href="https://twitter.com/RITSPEX">Tweets by RITSPEX</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>								
@@ -116,8 +126,6 @@
 					<img class="img-rounded" src="{{ url_for('static', filename='images/imagineRIT2017.jpg')}}" alt="Image of the SPEX team" id='philphace'>
 				</div>
 			</section>
-
-
 
       <section id="three" class="wrapper" >
           <div class="inner wset" >
