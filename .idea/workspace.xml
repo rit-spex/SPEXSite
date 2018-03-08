@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d60a8bf-a79a-4d0d-9655-b27884cd48a8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/HAB1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/hab.html" afterPath="$PROJECT_DIR$/templates/hab.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/ourteam.html" afterPath="$PROJECT_DIR$/templates/ourteam.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ourteam.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ourteam.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/ourteam.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="92" column="38" lean-forward="true" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
+            <state relative-caret-position="334">
+              <caret line="106" column="63" lean-forward="false" selection-start-line="106" selection-start-column="63" selection-end-line="106" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -95,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hab.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hab.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/hab.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="137" column="55" lean-forward="false" selection-start-line="137" selection-start-column="55" selection-end-line="137" selection-end-column="55" />
+            <state relative-caret-position="420">
+              <caret line="137" column="18" lean-forward="false" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -123,6 +122,11 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>december 2015</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -153,8 +157,8 @@
         <option value="$PROJECT_DIR$/templates/calendar.html" />
         <option value="$PROJECT_DIR$/templates/cubesat.html" />
         <option value="$PROJECT_DIR$/templates/getInvolved.html" />
-        <option value="$PROJECT_DIR$/templates/ourteam.html" />
         <option value="$PROJECT_DIR$/templates/hab.html" />
+        <option value="$PROJECT_DIR$/templates/ourteam.html" />
       </list>
     </option>
   </component>
@@ -395,7 +399,7 @@
       <workItem from="1519231346984" duration="3289000" />
       <workItem from="1520350257151" duration="103000" />
       <workItem from="1520350947323" duration="144000" />
-      <workItem from="1520522593578" duration="444000" />
+      <workItem from="1520522593578" duration="591000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1517013895780</created>
@@ -495,11 +499,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520350345709</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added HABI board image, made TJ happy">
+      <created>1520523054416</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1520523054416</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26857000" />
+    <option name="totallyTimeSpent" value="27004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -555,7 +566,8 @@
     <MESSAGE value="Fixed some bad formatting on hab page" />
     <MESSAGE value="Pushing to remote" />
     <MESSAGE value="Fixed name, added title for Barbosu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed name, added title for Barbosu" />
+    <MESSAGE value="Added HABI board image, made TJ happy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HABI board image, made TJ happy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -907,14 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ourteam.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="92" column="38" lean-forward="true" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/getInvolved.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1743">
@@ -925,8 +929,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/hab.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="137" column="55" lean-forward="false" selection-start-line="137" selection-start-column="55" selection-end-line="137" selection-end-column="55" />
+        <state relative-caret-position="420">
+          <caret line="137" column="18" lean-forward="false" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ourteam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="106" column="63" lean-forward="false" selection-start-line="106" selection-start-column="63" selection-end-line="106" selection-end-column="63" />
           <folding />
         </state>
       </provider>
